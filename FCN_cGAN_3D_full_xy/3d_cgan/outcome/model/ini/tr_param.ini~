@@ -1,0 +1,42 @@
+[param_setting]
+; train / test / crsv
+phase = train
+; batch size in training, 2
+batch_size = 1
+; patch size in training, 64
+inputI_size = 64
+; input channel number, 1
+inputI_chn = 1
+; output image size, 64
+outputI_size = 64
+; output channel, 8
+output_chn = 4
+; label rename map
+rename_map = 0, 1, 2, 3
+; volume resize ratio
+resize_r = 1.0
+; volume padding width
+pad_w = 0
+; training data directory
+traindata_dir = /home/xinyang/project_xy/3D_IS/code/xy_20170704/dataset/train
+; checkpoint directory
+chkpoint_dir = ../outcome/model/checkpoint
+; learning rate of Adam, 1e-3
+learning_rate = 0.0001
+; momentum term of Adam, 0.5
+beta1 = 0.5
+; training epoch, 10000
+epoch = 20000
+; model name
+model_name = cgan_3D_IS_2018.model
+; model save interval
+save_intval = 500
+; testing data  directory
+testdata_dir = /media/xinyang/echo2/tmi17_pkg/dataset/test/us
+; labeling output directory
+labeling_dir = /media/xinyang/echo2/tmi17_pkg/code/GAN/seg_result
+; cube overlap factor
+ovlp_ita = 4
+; L1 normalization in gan, 100.0
+L1_lambda = 100.0
+
