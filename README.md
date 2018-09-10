@@ -4,6 +4,7 @@ The full code has been uploaded.
 
 # Publication
 If the code is helpful to your work, please kindly cite our work as:
+#
 @article{yang2018towards,
   title={Towards Automated Semantic Segmentation in Prenatal Volumetric Ultrasound},
   author={Yang, Xin and Yu, Lequan and Li, Shengli and Wen, Huaxuan and Luo, Dandan and Bian, Cheng and Qin, Jing and Ni, Dong and Heng, Pheng-Ann},
